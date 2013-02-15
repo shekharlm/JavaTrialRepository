@@ -2,6 +2,7 @@ package com.ag;
 
 public class GITTestClass {
 	private String username,password;
+	private boolean isActive;
 	static{
 		System.out.println("Class Loaded");
 	}
@@ -20,4 +21,11 @@ public class GITTestClass {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public boolean isActive() {
+		return isActive;
+	}
+	public void setActive(boolean isActive) {
+		this.isActive = isActive;
+	}
+	
 }
