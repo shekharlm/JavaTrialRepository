@@ -1,7 +1,7 @@
 package com.ag;
 
 public class GITTestClass {
-	private String username;
+	private String username,password;
 	static{
 		System.out.println("Class Loaded");
 	}
